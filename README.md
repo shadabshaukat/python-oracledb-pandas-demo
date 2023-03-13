@@ -12,9 +12,9 @@ git clone https://github.com/shadabshaukat/python-oracledb-pandas-demo.git
 cd python-oracledb-pandas-demo
 
 # Set the environment variables to connect to Oracle Database
-export PYTHON_USERNAME=username
-export PYTHON_PASSWORD=password
-export PYTHON_CONNECTSTRING='(description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1521)(host=adb.ap-melbourne-1.oraclecloud.com))(connect_data=(service_name=*******_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))'
+export ORACLE_USER=username
+export ORACLE_PASSWORD=password
+export ORACLE_DSN='(description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1521)(host=adb.ap-melbourne-1.oraclecloud.com))(connect_data=(service_name=*******_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))'
 
 # Install the Python dependencies
 pip3 install -r requirements.txt
