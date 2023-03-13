@@ -1,12 +1,10 @@
-# python-oracledb-pandas-demo
-
-Statistical Analysis Project with Oracle Database, Pandas, Matplotlib and Seaborn
+# Statistical Analysis Project with Oracle Database, Pandas, Matplotlib and Seaborn
 
 This project contains Python code that utilizes the Matplotlib and Seaborn libraries for data visualization.
 Installation
 
     Clone the repository or download the code as a zip file.
-    Install the required libraries by running the following command: pip install -r requirements.txt.
+    Install the required libraries by running the following command: pip3 install -r requirements.txt.
 
 Usage
 
