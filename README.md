@@ -1,4 +1,4 @@
-# Statistical Analysis Project with Oracle Database, Pandas, Matplotlib and Seaborn
+# Statistical Analysis with Oracle Database, Pandas, Matplotlib and Seaborn
 
 This project contains Python code that utilizes the Matplotlib and Seaborn libraries for data visualization.
 Installation
