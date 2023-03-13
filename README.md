@@ -1,9 +1,20 @@
 # Statistical Analysis with Oracle Database, Pandas, Matplotlib and Seaborn
 
 This project contains Python code that utilizes the Matplotlib and Seaborn libraries for data visualization.
-Installation
 
 ## Usage
+
+This project requires the following libraries:
+
+```
+pandas
+sqlalchemy<2.0
+oracledb
+matplotlib
+seaborn
+```
+
+### Run without GUI
 
 ```
 # Clone the Github Repo
@@ -19,7 +30,6 @@ export ORACLE_DSN='(description= (retry_count=20)(retry_delay=3)(address=(protoc
 # Build from Source
 podman build -t oraclepandasdemo .
 
-# Run without GUI
 podman run -it \
 -e ORACLE_USER=admin \
 -e ORACLE_PASSWORD=YourPassword234#_ \
@@ -28,15 +38,7 @@ podman run -it \
 
 ```
 
-This project requires the following libraries:
 
-```
-pandas
-sqlalchemy<2.0
-oracledb
-matplotlib
-seaborn
-```
 ## Run with GUI
 ```
 # Install Dependencies
