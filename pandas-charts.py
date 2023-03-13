@@ -14,9 +14,9 @@ oracledb.version = "8.3.0"
 sys.modules["cx_Oracle"] = oracledb
 
 # Set up database connection
-un = os.environ.get("PYTHON_USERNAME")
-pw = os.environ.get("PYTHON_PASSWORD")
-dsn = os.environ.get("PYTHON_CONNECTSTRING")  #connection string
+un = os.environ.get("ORACLE_USERNAME")
+pw = os.environ.get("ORACLE_PASSWORD")
+dsn = os.environ.get("ORACLE_DSN")  #connection string
 
 engine_cloud = create_engine(f'oracle://{un}:{pw}@{dsn}')
 
