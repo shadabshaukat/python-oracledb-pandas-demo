@@ -14,11 +14,11 @@ oracledb.version = "8.3.0"
 sys.modules["cx_Oracle"] = oracledb
 
 # Set up database connection
-un = os.environ.get("ORACLE_USERNAME")
-pw = os.environ.get("ORACLE_PASSWORD")
-dsn = os.environ.get("ORACLE_DSN")  #connection string
+user = os.environ['ORACLE_USER']
+password = os.environ['ORACLE_PASSWORD']
+dsn = os.environ['ORACLE_DSN']
 
-engine_cloud = create_engine(f'oracle://{un}:{pw}@{dsn}')
+engine_cloud = create_engine(f'oracle://{user}:{password}@{dsn}')
 
 try:
    # Read employees table
