@@ -16,14 +16,15 @@ export ORACLE_USER=username
 export ORACLE_PASSWORD=password
 export ORACLE_DSN='(description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1521)(host=adb.ap-melbourne-1.oraclecloud.com))(connect_data=(service_name=*******_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))'
 
-# Install the Python dependencies
-pip3 install -r requirements.txt
+# Build from Source
+podman build -t oraclepandasdemo .
 
-# Run Script for Analysis with Data
-python3 pandas-data.py
+# Run Container
+podman run -it \
+-e ORACLE_USER=admin \
+-e ORACLE_PASSWORD=YourPassword234#_ \
+-e ORACLE_DSN="(description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1521)(host=adb.ap-melbourne-1.oraclecloud.com))(connect_data=(service_name=****_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))" oraclepandasdemo
 
-# Run Script to Display Charts
-python3 pandas-charts.py
 
 ```
 
