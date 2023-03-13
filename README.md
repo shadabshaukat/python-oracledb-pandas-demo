@@ -5,10 +5,6 @@ Installation
 
 ## Usage
 
-    Ensure that you have the necessary data files in the correct location.
-    Run the Python code files using a Python interpreter or a Jupyter notebook.
-    The resulting graphs will be displayed or saved as image files depending on the code.
-
 ```
 # Clone the Github Repo
 git clone https://github.com/shadabshaukat/python-oracledb-pandas-demo.git
@@ -40,5 +36,16 @@ Matplotlib
 Seaborn
 oracledb
 ```
+
+## Visualization 
+
+<img width="782" alt="Screen Shot 2023-03-13 at 5 26 25 pm" src="https://user-images.githubusercontent.com/39692236/224623817-7c13012a-e5c8-460f-8b33-dbb464e32722.png">
+
+<img width="777" alt="Screen Shot 2023-03-13 at 5 26 34 pm" src="https://user-images.githubusercontent.com/39692236/224623834-39a0d7a3-e351-427c-bbe9-2831051b335d.png">
+
+<img width="781" alt="Screen Shot 2023-03-13 at 5 26 43 pm" src="https://user-images.githubusercontent.com/39692236/224623847-9261ed4d-863f-472e-94c9-f8d83f814fc7.png">
+
+<img width="774" alt="Screen Shot 2023-03-13 at 5 26 51 pm" src="https://user-images.githubusercontent.com/39692236/224623880-7f34ef6f-3e6c-4628-8a1b-a3018ebcdcc0.png">
+
 
 #### Please feel free to contact me if you have any questions or comments about this project.
